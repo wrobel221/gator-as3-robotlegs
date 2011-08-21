@@ -67,7 +67,7 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<gator>, ["~> 0.0.20.pre"])
+      s.add_runtime_dependency(%q<gator>, ["~> 0.0.21.pre"])
       s.add_runtime_dependency(%q<gator-as3>, ["~> 0.0.7.pre"])
       s.add_development_dependency(%q<shoulda>, [">= 0"])
       s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
@@ -78,7 +78,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<gator>, ["~> 0.0.20.pre"])
       s.add_development_dependency(%q<gator-as3>, ["~> 0.0.7.pre"])
     else
-      s.add_dependency(%q<gator>, ["~> 0.0.20.pre"])
+      s.add_dependency(%q<gator>, ["~> 0.0.21.pre"])
       s.add_dependency(%q<gator-as3>, ["~> 0.0.7.pre"])
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<bundler>, ["~> 1.0.0"])
@@ -86,11 +86,11 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<rcov>, [">= 0"])
       s.add_dependency(%q<rspec>, ["~> 2.3.0"])
       s.add_dependency(%q<ci_reporter>, ["~> 1.6.5"])
-      s.add_dependency(%q<gator>, ["~> 0.0.20.pre"])
+      s.add_dependency(%q<gator>, ["~> 0.0.21.pre"])
       s.add_dependency(%q<gator-as3>, ["~> 0.0.7.pre"])
     end
   else
-    s.add_dependency(%q<gator>, ["~> 0.0.20.pre"])
+    s.add_dependency(%q<gator>, ["~> 0.0.21.pre"])
     s.add_dependency(%q<gator-as3>, ["~> 0.0.7.pre"])
     s.add_dependency(%q<shoulda>, [">= 0"])
     s.add_dependency(%q<bundler>, ["~> 1.0.0"])
@@ -98,7 +98,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rcov>, [">= 0"])
     s.add_dependency(%q<rspec>, ["~> 2.3.0"])
     s.add_dependency(%q<ci_reporter>, ["~> 1.6.5"])
-    s.add_dependency(%q<gator>, ["~> 0.0.20.pre"])
+    s.add_dependency(%q<gator>, ["~> 0.0.21.pre"])
     s.add_dependency(%q<gator-as3>, ["~> 0.0.7.pre"])
   end
 end
